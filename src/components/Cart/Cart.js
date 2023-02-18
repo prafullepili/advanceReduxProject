@@ -20,7 +20,7 @@ const Cart = (props) => {
           }}
         />)
         }
-        {cartItems.length == 0 && <p style={{ textAlign: "center" }}>No products</p>}
+        {cartItems.length === 0 && <p style={{ textAlign: "center" }}>No products</p>}
       </ul>
     </Card >
   );
